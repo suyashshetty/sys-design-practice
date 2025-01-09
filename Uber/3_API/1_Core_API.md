@@ -2,6 +2,7 @@ The list of APIs need to confirm with the in-scope functional requirements
 Considering distributed system architechture, state assumption for a microservices architecture 
 and define routes for each api endpoint
 
+```
 1. Request a ride : For riders to request a ride from A to B
 /POST /rider/fare-estimate -> Partial <Ride>
 {
